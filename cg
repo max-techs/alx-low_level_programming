@@ -1,0 +1,14 @@
+#!/bin/bash
+# This script adds executable right to any file
+
+read -p "Enter file name: " filename
+
+chmod u+x "$filename"
+
+git add .
+
+read -p "Enter commit message: " commit_message
+
+git commit -m "$commit_message"
+
+git push
