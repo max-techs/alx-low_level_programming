@@ -7,9 +7,7 @@
   */
 int _isupper(int c)
 {
-	/*for (c = 'A'; c <= 'Z'; c++)*/
-	/*{*/
-	if (c == 'A' || c == 'Z')
+	if (c == 'A' && c == 'Z')
 	{
 		return (1);
 	}
@@ -17,6 +15,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	/*}*/
 	return (0);
 }
