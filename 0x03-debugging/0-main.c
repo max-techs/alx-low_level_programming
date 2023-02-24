@@ -2,7 +2,6 @@
 
 /**
  * main - tests function that prints if
- *@i: is zero
  * Return: 0
  */
 
