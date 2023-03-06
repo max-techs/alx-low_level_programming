@@ -1,0 +1,20 @@
+#incude "main.h"
+
+/**
+  * _memcpy - copies memory area.
+  * @dest: destination string
+  * @src: source string
+  *@n: byte to copy
+  * Return: pounter to string
+  */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		*dest = *src;
+		i++;
+	}
+	return (dest);
+}
